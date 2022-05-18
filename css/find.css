@@ -1,0 +1,159 @@
+.find-background {
+  position: relative;
+  background: url(../image/Frame3.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 70rem;
+}
+
+.find-content {
+  position: absolute;
+  min-width: 68.6rem;
+  background: #ffffff;
+  border-radius: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 4rem 2rem 3rem;
+}
+.transaction {
+  display: flex;
+  max-width: 36.4rem;
+  align-items: center;
+  min-height: 6.4rem;
+  background: rgba(239, 240, 245, 1);
+  margin-bottom: 2.2rem;
+  border-radius: 1.6rem;
+  padding: 0.2rem;
+}
+.btn-transaction {
+  display: flex;
+  width: 18rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.4rem;
+  font-size: var(--font-size-16);
+  padding: 1.8rem 0;
+}
+.btn-transaction.active {
+  background: rgba(0, 172, 118, 1);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.transaction-text {
+  font-size: var(--font-size-16);
+  color: var(--text-color);
+}
+/* find-search */
+.find-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  margin-bottom: 1.8rem;
+  background: rgba(239, 240, 245, 1);
+  border-radius: 1.6rem;
+}
+.find-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-all {
+  display: flex;
+  width: 18rem;
+  height: 6.4rem;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(218, 220, 232, 1);
+  border-radius: 1.4rem;
+  position: relative;
+}
+.btn-all::after {
+  content: "▼";
+  position: absolute;
+  color: #000;
+  right: 1.7rem;
+}
+.btn-all span {
+  color: var(--text-color);
+  font-size: var(--font-size-16);
+}
+.find-text {
+  font-size: 1.6rem;
+  padding-left: 2.4rem;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.5;
+}
+
+.find-image {
+  padding-right: 2.6rem;
+}
+/* btn Search */
+.btn-search {
+  background: linear-gradient(289.49deg, #1a538f 5.69%, #59a0d6 109.6%);
+  border-radius: 2rem;
+  padding: 1.7rem 0;
+  text-align: center;
+}
+.btn-search span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* ========================== */
+/* RESPONSIVE */
+
+/* LAPTOP */
+@media screen and (max-width: 1650px) {
+  .mycacontainer {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .find-background {
+    /* min-height: 50vh; */
+  }
+  .find-content {
+    min-width: unset;
+    /* margin: 10.5rem 0; */
+  }
+  .transaction {
+    /* max-width: 25rem; */
+    /* gap: 0 3rem; */
+  }
+  .btn-transaction {
+    /* min-width: 12rem; */
+  }
+  .find-search {
+  }
+  .find-text {
+    font-size: 1.4rem;
+  }
+  .btn-search {
+    /* margin: 2rem 0 0 2rem; */
+  }
+  .btn-all {
+    /* min-width: 12.5rem; */
+  }
+}
+
+/* IPAD PRO */
+@media screen and (max-width: 1365px) {
+  .mycacontainer {
+    max-width: 86rem;
+    margin: 0 auto;
+  }
+  .find-background {
+    min-height: 40rem;
+  }
+  .find-content {
+    margin: 5.5rem 0;
+  }
+}
+
+/* IPAD */
+@media screen and (max-width: 1023px) {
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+}

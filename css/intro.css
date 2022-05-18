@@ -1,0 +1,77 @@
+.intro {
+  position: relative;
+}
+.intro.s2 {
+  background: url("../image/intro.png") center center no-repeat;
+  background-size: cover;
+}
+
+.intro-desc {
+  max-width: 75rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 8rem;
+}
+.intro-heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: rgba(33, 55, 133, 1);
+  line-height: 4.4rem;
+}
+.heading-text {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: rgba(9, 24, 78, 1);
+}
+.intro-allitem {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 6.4rem 18rem 0;
+  justify-items: center;
+}
+.intro-item {
+  display: grid;
+  padding: 0 5.2rem;
+  text-align: center;
+}
+.intro-item img {
+  margin: 0 auto;
+}
+.intro-item span {
+  font-size: 2rem;
+  font-weight: 600;
+  height: auto;
+  margin-top: 2.4rem;
+}
+.btn {
+  padding: 8rem 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.btn-intro {
+  height: 5.5rem;
+  background: rgba(0, 172, 118, 1);
+  border-radius: 0.5rem;
+}
+
+/* ========================== */
+/* RESPONSIVE */
+
+/* LAPTOP */
+@media screen and (max-width: 1650px) {
+  .intro-allitem {
+    padding: 6rem 12rem 0;
+  }
+}
+
+/* IPAD PRO */
+@media screen and (max-width: 1365px) {
+}
+
+/* IPAD */
+@media screen and (max-width: 1023px) {
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+}

@@ -1,0 +1,82 @@
+.autotool-contai .row .col-lg-4 {
+  padding: 0;
+}
+
+.left-background {
+  position: relative;
+  background: linear-gradient(328.67deg, #1a538f 35.47%, #59a0d6 118.33%);
+  border-radius: 0 2rem 2rem 0;
+}
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.left-background > img {
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translateY(-50%);
+}
+.left-menu a {
+  display: block;
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding-left: 12rem;
+  z-index: 10000;
+}
+.left-menu a:first-child {
+  background-color: #114378;
+}
+.left-menu a:hover {
+  background-color: #114378;
+  color: #ffffff;
+  z-index: 9999;
+}
+
+/* col-8 */
+.autotool-content {
+  text-align: center;
+}
+.autotool-header {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.autotool-heading {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  color: rgba(33, 55, 133, 1);
+  padding-bottom: 2.4rem;
+}
+.autotool-text {
+  margin: 0 auto;
+  max-width: 96rem;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: rgba(9, 24, 78, 1);
+}
+
+/* ========================== */
+/* RESPONSIVE */
+
+/* LAPTOP */
+@media screen and (max-width: 1650px) {
+}
+
+/* IPAD PRO */
+@media screen and (max-width: 1365px) {
+}
+
+/* IPAD */
+@media screen and (max-width: 1023px) {
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+}

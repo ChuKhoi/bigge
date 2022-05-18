@@ -1,0 +1,150 @@
+.header-top {
+  background: #eaf5ff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 4rem;
+  padding: 0 12rem;
+}
+.header-top__contact {
+  display: flex;
+  gap: 0 4rem;
+}
+.mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 1.4rem;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 1.4rem;
+}
+.header-top__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 3.3rem;
+}
+.bars {
+  position: relative;
+  display: inline-block;
+}
+.bars-notice {
+  position: absolute;
+  padding: 1px 4px;
+  top: -7px;
+  right: -15px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  border-radius: 1rem;
+  border: 2px solid #ffffff;
+  background: #2d70ba;
+}
+.header-top__text {
+  color: var(--text-color);
+  font-weight: 400;
+}
+/* navbar */
+.navbar {
+  min-height: 8rem;
+  background: #ffffff;
+  padding: 0 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0 5.6rem;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: var(--font-size-16);
+}
+.menu-item {
+  position: relative;
+}
+.menu-effect {
+  display: inline-block;
+  position: relative;
+}
+.menu-effect::after,
+.menu-item:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #3b7bb4;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -28px;
+}
+.menu-effect li {
+  margin-bottom: 1rem;
+}
+.menu-effect a {
+  font-weight: 700;
+}
+
+/* ========================== */
+/* RESPONSIVE */
+
+/* LAPTOP */
+@media screen and (max-width: 1650px) {
+  .header-mobile {
+    display: none;
+  }
+  .header-top {
+    padding: 0 8rem;
+  }
+  .navbar {
+    padding: 0 8rem;
+  }
+}
+
+/* IPAD PRO */
+@media screen and (max-width: 1365px) {
+}
+
+/* IPAD */
+@media screen and (max-width: 1023px) {
+  .header {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .fa-bars {
+  }
+  .header-mobile {
+    position: relative;
+    display: block;
+  }
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  /* .header-item {
+    height: 5.8rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+    gap: 0 5.2rem;
+  } */
+}

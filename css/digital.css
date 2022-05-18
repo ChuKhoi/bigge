@@ -1,0 +1,131 @@
+.digitals2 {
+  padding: 12rem;
+}
+.digital-header {
+  text-align: center;
+}
+.digital-heading {
+  font-size: 3.2rem;
+  color: #213785;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.digital-content {
+  padding-top: 5.5rem;
+  display: grid;
+  grid-template-columns: 8fr 10fr 7fr;
+}
+.digital-content img {
+  height: 100%;
+  background-size: cover;
+}
+.digital-content-s2,
+.digital-content-s3 {
+  padding: 1.5rem 0;
+}
+
+.digital-content-s1,
+.digital-content-s2,
+.digital-content-s3 {
+  position: relative;
+}
+.digital-content-s1-overlay {
+  position: absolute;
+  background: linear-gradient(180deg, #3a9bf7 28.29%, #25537d 128.29%);
+  mix-blend-mode: normal;
+  opacity: 0.66;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.digital-content-s1-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 2.4rem;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+}
+.digital-content-s1-content__des {
+  padding: 8rem 0;
+}
+.digital-content-s1__heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+.digital-content-s1__text {
+  max-width: 47rem;
+  padding-top: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+}
+/* .digital-content-s2 */
+.digital-content-s2-p1,
+.digital-content-s2-p2 {
+  position: relative;
+}
+.digital-content-s2-overlay {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(74, 159, 207, 0.51) 0%,
+    #183a59 100%
+  );
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.digital-content-s2-content__des {
+  padding: 4rem;
+}
+/* .digital-content-s3 */
+.digital-content-s3__content {
+  height: 100%;
+  position: relative;
+}
+.digital-content-s3-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(74, 159, 207, 0.51) 0%,
+    #183a59 100%
+  );
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.digital-content-s3__text {
+  max-width: 40rem;
+  padding-top: 2.4rem;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+}
+
+/* ========================== */
+/* RESPONSIVE */
+
+/* LAPTOP */
+@media screen and (max-width: 1650px) {
+  .digital-content-s2-content__des {
+    padding: 0;
+  }
+  .digital-content-s1__heading {
+    font-size: 3rem;
+  }
+}
+
+/* IPAD PRO */
+@media screen and (max-width: 1365px) {
+}
+
+/* IPAD */
+@media screen and (max-width: 1023px) {
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+}
